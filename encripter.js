@@ -9,7 +9,7 @@ usaba éste maravilloso código de encriptación para comunicarse con sus robots
 function encriptarMensaje() {
 
     var mensaje = document.getElementById("in-box").value;
-    
+  
     var salida = mensaje.replace(/e/g, "enter")
                         .replace(/i/g, "imes")
                         .replace(/a/g, "ia")
@@ -39,6 +39,8 @@ function copiar() {
   navigator.clipboard.writeText(contenido);
 }
 
+var foco = document.getElementById("in-box");
+foco.focus();
 
 document.getElementById("out-box").style.display = "none";
 document.getElementById("copy").style.display = "none"; 

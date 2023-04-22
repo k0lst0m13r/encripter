@@ -130,3 +130,17 @@ footer {
     font-family: GuruMeditationNbp-GynZ;
     src: url(fonts/GuruMeditationNbp-GynZ.ttf) format("truetype");
 }
+
+@media screen and (max-width: 480px){
+    #in {
+        width: auto;
+    }
+
+    #out {
+        margin: 14%;
+        width: 67%;
+        height: 100%;
+                        
+    }
+
+}
