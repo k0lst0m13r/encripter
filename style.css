@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+}
+
+/*---------- HEADER ------------*/
+
+header h1, header img {
+    display: inline-block;
+    padding: 2% 0 0 2%;   
+}
+
+
+.title {    
+    color: yellow;
+    font-family: PressStart2P;
+    
+}
+
+/*----------- IN FORM ----------*/
+
+form textarea {
+    display: block;
+}
+
+#in {
+    width: 40%;
+    float: left;
+    display: block;
+    padding: 10%;
+    text-align: center;
+}
+
+#in-box {
+    background-color: rgb(10, 21, 10);
+    border-radius: 7px;
+    border-style: none;
+    font-family: GuruMeditationNbp-GynZ;
+    color: rgb(5, 250, 25);
+    width:100%;
+}
+
+#in-box:hover {
+    background-color: rgb(17, 39, 19);
+}
+
+/*------ ENCRIPTAR/DESENCRIPTAR BUTTONS -----*/
+
+.btn {
+    padding: 2%;
+    font-family: PressStart2P; 
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: 7px;
+    border-color:  rgb(5, 250, 25);
+    color: rgb(5, 250, 25);
+    background-color: black;    
+}
+
+.btn:hover {
+    background-color: rgb(53, 132, 59);
+    color: black;
+    transform: scale(1.2);
+}
+
+/*-------- OUT FORM --------*/
+
+#out {  
+    text-align: center;  
+    width: 15%;
+    height: 250px;
+    display: block;
+    float: right;
+    background-color: rgb(53, 132, 59);
+    border-radius: 7px;
+    margin: 5%;
+    padding: 3%;
+}
+
+#out-box {
+    width: 100%;
+    background-color: rgb(53, 132, 59);
+    border-style: none;
+    border-radius: 7px;
+}
+
+#out img {
+    width: 100%;
+}
+
+/*-------- COPY BUTTON ---------*/
+
+#copy {
+    margin: auto;
+    padding: 3%;
+    font-family: PressStart2P; 
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: 7px;
+    border-color:  black;
+    color: black;
+    background-color: rgb(68, 151, 75);    
+}
+
+#copy:hover {
+    background-color: black;
+    border-color: rgb(5, 250, 25);
+    color: rgb(5, 250, 25);
+    transform: scale(1.3);
+}
+
+/*------- FOOTER ---------*/
+
+footer {
+    font-family: GuruMeditationNbp-GynZ;
+    padding: 2%;
+    clear: both;
+    color: white;
+    background: linear-gradient(rgb(17, 39, 19), black);
+}
+
+
+/*------ IMPORTED FONTS--------*/
+
+@font-face {
+    font-family: PressStart2P;
+    src: url(fonts/PressStart2P-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: GuruMeditationNbp-GynZ;
+    src: url(fonts/GuruMeditationNbp-GynZ.ttf) format("truetype");
+}

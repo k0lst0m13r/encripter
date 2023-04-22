@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ENCRIPTER MACHINE</title>
+    
+</head>
+
+<body>
+    
+<!------- HEADER -------> 
+
+    <header>
+        <img src="images/otto.png" alt="Evil Otto"> <!-- logo -->
+        <h1 class="title">EVIL OTTO ENCRIPTER MACHINE.</h1>
+    </header>
+
+<!--------- IN FORM ---------->
+
+    <section id="in">
+        <div>
+            <form action="">
+                <textarea name="" id="in-box" cols="30" rows="10" placeholder="ingrese el texto aqui"></textarea>  
+                    <input id="encripter" class="btn" type="submit" value="Encriptar" onclick="byeBot()">
+                    <input id="decripter" class="btn" type="submit" value="Desencriptar" onclick="byeBot()">                  
+            </form>            
+        </div>
+    </section>
+
+<!--------- OUT FORM ----------->    
+
+    <section id="out">
+        <form action="">
+            <img src="images/robot.png" alt="Berzerk Robot" id="robot">
+            <textarea name="" id="out-box" cols="30" rows="13"></textarea>
+            <input id="copy" type="submit" value="Copiar" onclick="copiar()">
+        </form>        
+    </section>
+
+
+<!--------- FOOTER ---------->
+
+    <footer>
+    <p>Creado por: Julio Branda.</p>
+    <p>Licencia: &#x1F12F;CopyLeft.</p>
+    </footer>
+    
+<!-------- SCRIPT ---------->
+
+    <script src="encripter.js"></script>
+    
+</body>
+</html>
