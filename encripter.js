@@ -9,6 +9,8 @@ usaba éste maravilloso código de encriptación para comunicarse con sus robots
 function encriptarMensaje() {
 
     var mensaje = document.getElementById("in-box").value;
+
+    mensaje = mensaje.toLowerCase();
   
     var salida = mensaje.replace(/e/g, "enter")
                         .replace(/i/g, "imes")
@@ -26,6 +28,8 @@ function encriptarMensaje() {
 function desencriptarMensaje() {
   var mensaje = document.getElementById("in-box").value;
   
+  mensaje = mensaje.toLowerCase();
+
   var salida = mensaje.replace(/enter/g, "e")
                       .replace(/imes/g, "i")
                       .replace(/ia/g, "a")
